@@ -10,8 +10,8 @@
 <body>
 <h1 id="title">Microverse Survey Form</h1>
 <p id="description">Just a 5- minute survey to evakuate Microverse Challenge</p>
-<form action="submit" id="survey-form">
-<fieldset id=>
+<form action="" id="survey-form">
+<fieldset>
     <legend>Biodata</legend>
     <label for="salutation" >Salutation: </label>
     <select id="dropdown">
@@ -19,40 +19,40 @@
         <option> Mrs</option>
         <option> Miss</option>
         <option>Others</option>
-    </select></br><br/>
+    </select></br>
 
     <label id="name-label" name="name" for="name">Name: </label>
-    <input type="text" class"bio"   id="name-label" name="name" placeholder="Enter your name" required><br/><br/>
+    <input type="text" value="Enter your name" id="name-label" name="name" placeholder="Enter your name" required>
 
     <label id="email-label" for="email">Email: </label>
-    <input type="email" class"bio" id="email-label" placeholder="Enter your email" required><br/><br/>
+    <input type="email" value="Enter your Email" id="email-label" placeholder="Enter your email" required>
 
-    <label id="phone-label"  for="phone-number">Phone: </label>
-    <input type="tel" class"bio"  id="phone-label" placeholder="Enter your Phone Number" required min="6" max="20">
+    <label id="phone-label"  for="phone-number">Phone-Number: </label>
+    <input type="number" value="Enter your Phone Number" id="phone-label" placeholder="Enter your Phone Number" required min="6" max="20">
 </fieldset>
 
 <fieldset>
     <legend>How satisfied are you with Microverse</legend>
-    <input type="radio"  name ="sat" value="Not Satisfied">
-    <label for="ns">Not Satisfied</label><br/>
+    <input type="radio">
+    <label>Not Satisfied</label>
 
-    <input type="radio" name ="sat" value="Satisfied">
-    <label>Satisfied</label><br/>
+    <input type="radio">
+    <label>Satisfied</label>
 
-    <input type="radio" name ="sat" value="Very Satisfied">
-    <label>Very Satisfied</label><br/>
+    <input type="radio">
+    <label>Very Satisfied</label>
 </fieldset>
 
 <fieldset>
     <legend>Which Browser do you use?</legend>
     <input type="checkbox">
-    <label>Mozilla</label><br/>
+    <label>Mozilla</label>
 
     <input type="checkbox">
-    <label>Chrome</label><br/>
+    <label>Chrome</label>
 
     <input type="checkbox">
-    <label>Opera Mini</label><br/>
+    <label>Opera Mini</label>
 
     <input type="checkbox">
     <label>Others</label>

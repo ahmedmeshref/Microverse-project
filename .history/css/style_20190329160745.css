@@ -10,13 +10,11 @@ placeholder {
     margin: 5px;
 }
 
-#name-label {
-    margin-right: 10px;
+.bio {
+    margin-left: -90px;
 }
 
-.bio {
-    /* margin-left: 1em;*/
-}
+#intro {}
 
 label {
     margin-left: 20px;

@@ -1,21 +1,13 @@
 body {
-    margin: 0px;
-    /*text-align: center;*/
+    /* margin: 0px;*/
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
 }
 
 placeholder {
-    padding: 50px;
-    margin: 5px;
-}
-
-#name-label {
-    margin-right: 10px;
-}
-
-.bio {
-    /* margin-left: 1em;*/
+    /* padding: 50px;*/
+    /* margin: 5px;*/
 }
 
 label {

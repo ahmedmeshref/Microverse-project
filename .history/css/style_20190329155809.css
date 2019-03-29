@@ -6,16 +6,12 @@ body {
 }
 
 placeholder {
-    padding: 50px;
+    /* padding: 50px;*/
     margin: 5px;
 }
 
-#name-label {
-    margin-right: 10px;
-}
-
 .bio {
-    /* margin-left: 1em;*/
+    position: absolute;
 }
 
 label {

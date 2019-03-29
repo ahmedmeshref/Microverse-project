@@ -10,12 +10,10 @@ placeholder {
     margin: 5px;
 }
 
-#name-label {
-    margin-right: 10px;
-}
-
-.bio {
-    /* margin-left: 1em;*/
+#name-label,
+#email-label,
+#phone-label {
+    position: absolute;
 }
 
 label {
