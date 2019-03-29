@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Survey Form</title>
+</head>
+<body>
+<h1 id="title">Microverse Survey Form</h1>
+<p id="description">Just a 5- minute survey to evakuate Microverse Challenge</p>
+<form action="" id="survey-form">
+<fieldset>
+    <legend>Biodata</legend>
+    <label for="salutation" >Salutation: </label>
+    <select id="dropdown">
+        <option> Mr</option>
+        <option> Mrs</option>
+        <option> Miss</option>
+        <option>Others</option>
+    </select></br>
+
+    <label id="name-label" name="name" for="name">Name: </label>
+    <input type="text" value="Enter your name" id="name-label" name="name" placeholder="Enter your name" required>
+
+    <label id="email-label" for="email">Email: </label>
+    <input type="email" value="Enter your Email" id="email-label" placeholder="Enter your email" required>
+
+    <label id="phone-label"  for="phone-number">Phone-Number: </label>
+    <input type="number" value="Enter your Phone Number" id="phone-label" placeholder="Enter your Phone Number" required min="6" max="20">
+</fieldset>
+
+<fieldset>
+    <legend>How satisfied are you with Microverse</legend>
+    <input type="radio">
+    <label>Not Satisfied</label>
+
+    <input type="radio">
+    <label>Satisfied</label>
+
+    <input type="radio">
+    <label>Very Satisfied</label>
+</fieldset>
+
+<fieldset>
+    <legend>Which Browser do you use?</legend>
+    <input type="checkbox">
+    <label>Mozilla</label>
+
+    <input type="checkbox">
+    <label>Chrome</label>
+
+    <input type="checkbox">
+    <label>Opera Mini</label>
+
+    <input type="checkbox">
+    <label>Others</label>
+</fieldset>
+</fieldset>
+    <legend id="cands">Comments/Suggestions</legend>
+    <textarea name="message" width="15" height="10"></textarea>
+</fieldset>
+<div id="sub">
+    <input type="submit" value="Submit" id="submit" >
+</div><br/>
+</form>
+</body>
+</html>
